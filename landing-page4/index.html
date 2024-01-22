@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta name="title" content="Mutant Whats - Automação para WhatsApp">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Mutant Whats - Automação para WhatsApp">
+  <meta property="og:site_name" content="Mutant Whats">
+
+  <title>Mutant Whats - Automação para WhatsApp</title>
+
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="logo">
+            <img src="./assets/images/logo-partner.svg" class="img-fluid" alt="Logo Partner Mutant">
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <section class="banner">
+    <div class="container">
+      <div class="row row-mobile">
+        <div class="col-md-5 banner-video mobile-only">
+          <img src="./assets/images/video+laptop.png" alt="banner-mobile">
+        </div>
+        <div class="col-md-5">
+          <h1>Muito mais que uma plataforma de atendimento para pequenas empresas e empreendedores</h1>
+          <p class="text-channels "><b>Múltiplos canais numa única plataforma:</b></p>
+          <div class="channels">
+            <img src="./assets/icons/icons-channels.svg" alt="">
+          </div>
+
+          <div class="price">
+            <h4>Planos a partir de</h4>
+            <h5>R$ <span>179</span>/mês</h5>
+            <h6>Contrate agora o plano e use <span>grátis por 30 dias.</span></h6>
+            <a href="./dados-pessoais"><button
+                onclick="tagManager('mutant-whats:home', 'clique:botao', 'banner-principal:contratar')">Quero
+                contratar</button></a>
+          </div>
+        </div>
+        <div class="col-md-5 banner-video desktop-only">
+          <img src="./assets/images/Vector (1).png" alt="" class="banner-desktop">
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="discover">
+    <div class="container">
+      <h1>Descubra o que o Mutant Whats pode fazer pelo seu negócio</h1>
+
+      <div class="row discover-itens-desktop">
+        <div class="col-3 item">
+          <img src="./assets/images/bot-builder-card.png" alt="">
+          <h3>Automatize a triagem de atendimento e faça vendas </h3>
+          <p>Use chatbots para ganhar eficiência na triagem de conversas, autoatendimento, pré-vendas e muito mais.</p>
+        </div>
+        <div class="col-3 item">
+          <img src="./assets/images/venda-celular-card.png" alt="">
+          <h3>Atenda leads e clientes pelo celular</h3>
+          <p>Conte com as funcionalidades do Mutant Whats também para celulares Android ou iOS.</p>
+        </div>
+        <div class="col-3 item">
+          <img src="./assets/images/hsm-card.png" alt="">
+          <h3>Envie mensagens ativas em massa</h3>
+          <p>Organize seus contatos e envie mensagens em massa para WhatsApp de um jeito simples e rápido.</p>
+        </div>
+        <div class="col-3 item">
+          <img src="./assets/images/relatorio-card.png" alt="">
+          <h3>Acesse relatórios e exporte planilhas</h3>
+          <p>Tenha acesso aos dados da sua operação e use-os para a melhoria contínua de processos</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="discover-itens-mobile">
+        <div class="item">
+          <img src="./assets/images/undraw_time_management_re_tk5w 1.svg" alt="">
+          <h3>Gerencie sua operação em tempo real</h3>
+          <p>No Mutant Whats você tem a visão completa dos seus atendimentos e da fila de espera, acompanha indicadores
+            e gera diversos relatórios.</p>
+        </div>
+        <div class="item">
+          <img src="./assets/images/undraw_real_time_sync_re_nky7 1.svg" alt="">
+          <h3>Tenha vários atendentes em um único WhatsApp</h3>
+          <p>Realize atendimentos simultâneos com vários atendentes usando a mesma conta, sem depender de um celular
+            conectado.</p>
+        </div>
+        <div class="item">
+          <img src="./assets/images/undraw_personal_text_re_vqj3 1.svg" alt="">
+          <h3>Tenha total liberdade para personalizar a comunicação com seus clientes</h3>
+          <p>Utilize recursos como imagens, áudios, vídeos e emojis para surpreender seus clientes com uma experiência
+            mais humanizada.</p>
+        </div>
+        <div class="item">
+          <img src="./assets/images/undraw_messages_re_qy9x 1.svg" alt="">
+          <h3>Utilize chatbots e ganhe eficiência na sua operação</h3>
+          <p>Construa seu próprio robô de atendimento para oferecer suporte 24h e automatizar parte dos seus
+            atendimentos, evitando filas de espera.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <a href="./dados-pessoais" target="_self"><button
+            onclick="tagManager('mutant-whats:home', 'clique:botao', 'descubra-mutant-wahts:contratar')">Quero
+            contratar</button></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="how-it-works">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>Como funciona?</h2>
+        </div>
+      </div>
+      <div class="items">
+        <div class="item">
+          <div class="icon">
+            <img src="./assets/icons/shopping-cart.svg" alt="Carrinho de compra">
+          </div>
+          <p><b>1.</b> Escolha o melhor plano para seu negócio, cadastre-se e comece a pagar só no 2º mês</p>
+        </div>
+        <div class="item">
+          <div class="icon">
+            <img src="./assets/icons/notebook.svg" alt="notebook">
+          </div>
+          <p><b>2.</b>Conte com o apoio da nossa equipe de suporte para configurar e ativar a plataforma em até 2 dias
+            úteis </p>
+        </div>
+        <div class="item">
+          <div class="icon notebook">
+            <img src="./assets/icons/rocket.svg" alt="notebook">
+          </div>
+          <p><b>3.</b>Comece a usar o Mutant Whats e dê o primeiro passo para mudar o patamar do seu negócio</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="plans" id="plans">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>Escolha um plano e pague apenas no 2º mês</h2>
+          <p>Contrate agora uma solução completa de atendimento e vendas capaz de revolucionar o seu negócio</p>
+        </div>
+      </div>
+
+      <div class="items slider slider-plans">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="slide">
+              <div class="item light">
+                <div class="best-offer">
+                  Melhor Oferta
+                </div>
+                <h3>Light</h3>
+                <h4>R$ <b>179</b> / Mês</h4>
+                <h5>A melhor opção para empresas que precisam ir além do WhatsApp comum</h5>
+                <ul>
+                  <li>Ativação de 1 número na API oficial do WhatsApp</li>
+                  <li>1000 conversas/mês iniciadas pela empresa ou pelo cliente</li>
+                  <li>Suporte durante o horário comercial</li>
+                  <li>Até 5 usuários</li>
+                </ul>
+                <a href="/dados-pessoais"><button
+                    onclick="tagManager('mutant-whats:home', 'clique:botao', 'plano-light:contratar')">Contratar
+                    plano</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="slide">
+              <div class="item">
+                <h3>Plus</h3>
+                <h4>R$ <b>425</b> / Mês</h4>
+                <h5>O mais indicado para empresas com o canal WhatsApp já consolidado</h5>
+                <ul>
+                  <li>Ativação de 1 número na API oficial do WhatsApp</li>
+                  <li>Até 3000 conversas/mês iniciadas pela empresa ou pelo cliente</li>
+                  <li>Suporte durante o horário comercial</li>
+                  <li>Até 15 usuários</li>
+                </ul>
+
+                <a href="/dados-pessoais/plus"><button
+                    onclick="tagManager('mutant-whats:home', 'clique:botao', 'plano-plus:contratar')">Contratar
+                    plano</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="slide">
+              <div class="item">
+                <h3>Bold</h3>
+                <h4>R$ <b>1150</b> / Mês</h4>
+                <h5>Recomendado para empresas com alto volume de conversas</h5>
+                <ul>
+                  <li>Ativação de 1 número na API oficial do WhatsApp</li>
+                  <li>Até 4000 conversas/mês iniciadas pela empresa ou pelo cliente</li>
+                  <li>Suporte durante o horário comercial</li>
+                  <li>Até 30 usuários</li>
+                </ul>
+
+                <a href="/dados-pessoais/bold"><button
+                    onclick="tagManager('mutant-whats:home', 'clique:botao', 'plano-bold:contratar')">Contratar
+                    plano</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <span class="btn btn-next" onclick="nextSlide(0)"><img src="./assets/icons/next.svg" alt="Botão próximo"></span>
+        <span class="btn btn-prev" onclick="prevSlide(0)"><img src="./assets/icons/prev.svg"
+            alt="Botão anterior"></span>
+      </div>
+    </div>
+  </section>
+
+  <section class="segmentos">
+    <div class="container">
+      <h2>O Mutant Whats é feito para quais segmentos de mercado?</h2>
+      <h3>O Mutant Whats é focado em pequenas empresas e empreendedores que trabalham com WhatsApp e outros
+        canaisdigitais para atender leads e clientes.</h3>
+
+      <div class="cards slider slider-segmentos">
+        <div class="row">
+
+          <div class="col-md-3">
+            <div class="slide">
+              <div class="card" style="background-image: url(./assets/images/imagem\ -\ comercio.png);">
+                <h4>Comércio varejista</h4>
+                <hr>
+                <p>Venda mais com um atendimento diferenciado. Com o Mutant Whats seus clientes recebem a atenção que
+                  merecem.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="slide">
+              <div class="card" style="background-image: url(./assets/images/imagem\ -\ prest.\ serv.png);">
+                <h4>Prestadores de serviços</h4>
+                <hr>
+                <p>Garanta uma experiência única no atendimento dos seus clientes e melhore o engajamento do seu
+                  negócio. </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="slide">
+              <div class="card" style="background-image: url(./assets/images/imagem\ -\ emp.\ de\ cred.png);">
+                <h4>Empresas de crédito para pessoas físicas</h4>
+                <hr>
+                <p>Tenha uma comunicação mais efetiva com os clientes e aumente a qualidade do seu atendimento.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="slide">
+              <div class="card" style="background-image: url(./assets/images/imagem\ -\ imob.png);">
+                <h4>Imobiliárias</h4>
+                <hr>
+                <p>Melhore o seu atendimento, aumente suas vendas com um atendimento diferenciado em sua imobiliária.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <span class="btn btn-next" onclick="nextSlide(1)"><img src="./assets/icons/next.svg" alt="Botão próximo"></span>
+        <span class="btn btn-prev" onclick="prevSlide(1)"><img src="./assets/icons/prev.svg"
+            alt="Botão anterior"></span>
+      </div>
+    </div>
+  </section>
+
+  <section class="provedor-oficial">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <img src="./assets/images/banner 1.png" alt=" " class="img-fluid">
+        </div>
+        <div class="col-md-7 centralized">
+          <h2>Como parceiro oficial da Meta, confira o que oferecemos:</h2>
+          <div class="card">
+            <div class="img">
+              <img src="./assets/images/undraw_security_re_a2rk 1.svg" alt="">
+            </div>
+            <p>Use a API oficial do WhatsApp e evite bloqueios ou banimentos de número que prejudicam sua marca</p>
+          </div>
+          <div class="card">
+            <div class="img">
+              <img src="./assets/images/undraw_browsing_online_re_umsa 1.svg" alt="">
+            </div>
+            <p>Não dependa de um aparelho celular ligado e conectado à internet para usar a plataforma</p>
+          </div>
+          <div class="card">
+            <div class="img">
+              <img src="./assets/images/undraw_mobile_encryption_re_yw3o 1.svg" alt="">
+            </div>
+            <p>Proteja-se contra a evasão de dados de clientes centralizando tudo numa única plataforma</p>
+          </div>
+
+          <div class="button">
+            <a href="/dados-pessoais"><button
+                onclick="tagManager('mutant-whats:home', 'clique:botao', 'provedor-oficial:contratar')">Quero
+                contratar</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="benefits">
+    <div class="container">
+      <div class="table-default">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>
+                <h3>Nossos diferenciais:</h3>
+              </th>
+              <th>
+                <h5>WhatsApp <br> Business</h5>
+              </th>
+              <th>
+                <h5 class="desktop-only">Plataforma <br> sem API oficial</h5>
+                <h5 class="mobile-only">Plataforma <br> sem API<br> oficial</h5>
+              </th>
+              <th>
+                <h5><img src="./assets/images/logo-partner.svg" class="logo-mutant desktop-only" alt="logo mutant"></h5>
+
+                <h5 class="mobile-only"><svg width="40" height="38" viewBox="0 0 40 38" fill="none"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="40" height="19" fill="url(#pattern0)" />
+                    <rect x="6" y="21" width="28" height="17" fill="url(#pattern1)" />
+                    <defs>
+                      <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_561_445" transform="matrix(0.0048169 0 0 0.0101408 -0.0224366 0)" />
+                      </pattern>
+                      <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_561_445"
+                          transform="matrix(0.00688129 0 0 0.0113339 -1.60348 -0.117647)" />
+                      </pattern>
+                      <image id="image0_561_445" width="383" height="100"
+                        xlink:href="data:image/png;base64,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" />
+                    </defs>
+                  </svg></h5>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Mensagens pré-configuradas (como saudação e ausência)
+              </td>
+              <td><img src="./assets/icons/checkmark2.svg" alt="Check"></td>
+              <td><img src="./assets/icons/checkmark2.svg" alt="Check"></td>
+              <td><img src="./assets/icons/checkmark2.svg" alt="Check"></td>
+            </tr>
+            <tr>
+              <td>Informações da empresa no perfil, como o site e horário</td>
+              <td><img src="./assets/icons/checkmark2.svg" alt="Check"></td>
+              <td><img src="./assets/icons/checkmark2.svg" alt="Check"></td>
+              <td><img src="./assets/icons/checkmark2.svg" alt="Check"></td>
+            </tr>
+            <tr>
+              <td>Vários atendentes ao mesmo tempo em um único
+                número</td>
+              <td><img src="./assets/icons/close-circle.svg" alt="Não tem"></td>
+              <td><img src="./assets/icons/close-circle.svg" alt="Não tem"></td>
+              <td><img src="./assets/icons/checkmark2.svg" alt="Check"></td>
+            </tr>
+            <tr>
+              <td>Atendimento via computador e app no celular</td>
+              <td><img src="./assets/icons/close-circle.svg" alt="Não tem"></td>
+              <td><img src="./assets/icons/close-circle.svg" alt="Não tem"></td>
+              <td><img src="./assets/icons/checkmark2.svg" alt="Check"></td>
+            </tr>
+            <tr>
+              <td>Atendimento 24h com construção de chatbot</td>
+              <td><img src="./assets/icons/close-circle.svg" alt="Não tem"></td>
+              <td><img src="./assets/icons/close-circle.svg" alt="Não tem"></td>
+              <td><img src="./assets/icons/checkmark2.svg" alt="Check"></td>
+            </tr>
+            <tr>
+              <td>Acompanhamento dos atendimentos em tempo real</td>
+              <td><img src="./assets/icons/close-circle.svg" alt="Não tem"></td>
+              <td><img src="./assets/icons/close-circle.svg" alt="Não tem"></td>
+              <td><img src="./assets/icons/checkmark2.svg" alt="Check"></td>
+            </tr>
+            <tr>
+              <td>Indicadores de atendimento como tempo médio, filas e muito mais!</td>
+              <td><img src="./assets/icons/close-circle.svg" alt="Não tem"></td>
+              <td><img src="./assets/icons/close-circle.svg" alt="Não tem"></td>
+              <td><img src="./assets/icons/checkmark2.svg" alt="Check"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="video">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>Quer saber mais?</h2>
+          <p>Assista o vídeo e conheça todas as vantagens da API do WhatsApp Business com o Mutant Whats</p>
+          <video id="video-mutantwhats2" controls>
+            <source src="./assets/videos/mutant_whats (1080p).mp4" type="video/mp4"> Your browser does not support the
+            video
+            tag.
+          </video>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <a href="./dados-pessoais"><button
+              onclick="tagManager('mutant-whats:home', 'clique:botao', 'video:contratar')">Contratar
+              agora</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bot-about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="./assets/images/chatbotmock 1.png" alt="tela bot builder" class="img-fluid desktop-only">
+        </div>
+        <div class="col-md-8 text">
+          <h2>Crie seu próprio chatbot</h2> <br>
+          <h4>Com o Mutant Bot, você pode criar seu robô de atendimento para atender seus clientes 24h por dia, 7 dias
+            por semana</p> <br>
+            <p>Na nossa plataforma, você pode desenhar o fluxo de atendimento adequado às particularidades que só o seu
+              negócio tem. <br> <br> Construa o passo a passo do diálogo com a nossa interface drag and drop: você
+              arrasta as caixas de diálogo e conecta os caminhos. <br><br>
+
+              Depois, nós conectamos o seu Bot ao WhatsApp em questão de minutos! <br><br>
+
+              O Mutant Bot é integrado ao Mutant Whats, então você também pode acompanhar os indicadores do seu bot,
+              como o número de clientes e muito mais!</p>
+        </div>
+        <img src="./assets/images/chatbotmock 1.png" alt="tela bot builder" class="img-fluid mobile-only">
+      </div>
+    </div>
+  </section>
+
+  <section class="faq">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>Tire suas dúvidas</h2>
+          <div class="accordion" id="accordionFaq">
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading6">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2"
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'fac:ler-mais')">
+                  Posso usar minha conta pessoal do Facebook ou preciso criar uma para empresa?
+                </button>
+              </h2>
+              <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2">
+                <div class="accordion-body">
+                  <p>Você poderá vincular o Mutant Whats a qualquer tipo de conta que seja sua, porém, caso você veicule
+                    anúncios, é interessante que o WhatsApp seja da mesma página que fornece os anúncios.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading15">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3"
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'fac:ler-mais')">
+                  Eu consigo manter o meu histórico de conversas anteriores?
+                </button>
+              </h2>
+              <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3">
+                <div class="accordion-body">
+                  <p>Ainda não é possível migrar o histórico de conversas da sua conta para o Mutant Whats. Para não
+                    perder seu histórico de conversas, você deve fazer um arquivo de backup antes de iniciar a
+                    utilização do número na plataforma.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading16">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4"
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'fac:ler-mais')">
+                  Posso importar minha agenda de contatos?
+                </button>
+              </h2>
+              <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4">
+                <div class="accordion-body">
+                  <p>Sim, por meio de uma planilha do excel é possível importar sua agenda.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading10">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5"
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'fac:ler-mais')">
+                  Posso usar outro número para testar?
+                </button>
+              </h2>
+              <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5">
+                <div class="accordion-body">
+                  <p>Sim. Você pode iniciar a utilização da plataforma com um número “temporário” enquanto conhece todas
+                    as funcionalidades do Mutant Whats. Depois, pode solicitar a alteração para o número principal da
+                    empresa.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading6">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6"
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'fac:ler-mais')">
+                  É possível solicitar um número de telefone juntamente com o serviço da plataforma?
+                </button>
+              </h2>
+              <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6">
+                <div class="accordion-body">
+                  <p>No momento, ainda não oferecemos a venda de número de telefones.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading12">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7"
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'fac:ler-mais')">
+                  Posso usar um número Fixo?
+                </button>
+              </h2>
+              <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7">
+                <div class="accordion-body">
+                  <p>Sim. É importante lembrar que você receberá uma chamada para validação do código de ativação. Caso
+                    seu número fixo esteja vinculado a um PABX é necessário desvinculá-lo no momento do envio para
+                    recebimento do código.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse8" aria-expanded="true" aria-controls="collapse8"
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'fac:ler-mais')">
+                  Preciso ter conta no Facebook?
+                </button>
+              </h2>
+              <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8">
+                <div class="accordion-body">
+                  <p>Sim. Para ativar seu Mutant Whats, seu número precisa estar vinculado ao Gerenciador de Negócios da
+                    Meta (grupo que gerencia marcas como Facebook e WhatsApp). Fique tranquilo! Se você ainda não tem
+                    uma conta no Facebook, você pode criá-la. É rápido, não tem custo e podemos oferecer orientações.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading9">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9"
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'fac:ler-mais')">
+                  Posso usar minha conta pessoal do Facebook ou preciso criar uma para empresa?
+                </button>
+              </h2>
+              <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9">
+                <div class="accordion-body">
+                  <p>Você poderá vincular o Mutant Whats a qualquer tipo de conta que seja sua, porém, caso você veicule
+                    anúncios, é interessante que o WhatsApp seja da mesma página que fornece os anúncios.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading10">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10"
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'fac:ler-mais')">
+                  Por que preciso verificar minha empresa?
+                </button>
+              </h2>
+              <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10">
+                <div class="accordion-body">
+                  <p>A verificação da empresa é uma etapa indispensável a ser cumprida para sua empresa manter seu
+                    número do WhatsApp ativo na API Oficial. Por questões de segurança, o WhatsApp só libera o uso da
+                    API para empresas que passaram por essa etapa de verificação, que é feita para garantir que a
+                    empresa existe e está dentro das políticas de uso.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <img class="never-settle" src="./assets/images/img-webp/text-footer.webp" alt="logo footer">
+        </div>
+        <div class="col-md-7">
+          <ul>
+            <li><a href="https://api.whatsapp.com/send?phone=551125046890&text=Gostaria%20de%20ajuda!" target="_blank"
+                onclick="tagManager('mutant-whats:home', 'clique:botao', 'footer:whatsapp');">+55
+                11 2504-6890</a></li>
+            <li>suporte.whats@mutant.com.br</li>
+            <li>R. Hungria, 574 – Cidade Jardim, <br> São Paulo – SP – 01555-903</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <img src="./assets/images/img-webp/logo-white.webp" alt="logo footer" class="logo">
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="whatsapp-link">
+    <a href="https://api.whatsapp.com/send?phone=551125046890&text=Gostaria%20de%20ajuda!" target="_blank"
+      onclick="tagManager('mutant-whats:home', 'clique:botao', 'help-flutuante:whatsapp');"><img
+        src="./assets/images/whatsapp-link.svg" alt="WhatsApp"></a>
+  </div>
+
+  <script async src="./js/bootstrap/bootstrap.bundle.min.js"></script>
+  <script async src="./js/main.js"></script>
+</body>
+
+</html>
