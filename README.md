@@ -8,3 +8,4 @@ Aqui estão algumas prévias de landing pages disponíveis neste repositório:
 - https://65ae955cddd90e1b6a7a9902--gleeful-gelato-7d2541.netlify.app/
 - https://65ae98252ac9ba201264c7ce--roaring-cranachan-192d7d.netlify.app/
 - https://65aea2c9ef454d2eeab01801--dynamic-pastelito-6a38b3.netlify.app/
+- https://65aeb45ccae1aa39992ee98f--delicate-baklava-b2c6fb.netlify.app/
