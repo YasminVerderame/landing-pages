@@ -1,7 +1,6 @@
 # Landing Page com HTML, CSS, Bootstrap e JavaScript
 
 Este repositório contém uma landing page responsiva e atraente, desenvolvida utilizando HTML, CSS, Bootstrap e JavaScript. A combinação destas tecnologias proporciona uma experiência visual moderna e interativa para promover seus produtos, serviços ou projetos.
-Repositório de Landing Pages: Uma coleção de páginas de destino responsivas e visualmente atrativas. Personalize facilmente para promover produtos, serviços ou projetos, simplificando sua presença online.
 
 ## Visualização Online
 Confira a landing page em ação aqui:
