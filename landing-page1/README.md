@@ -17,7 +17,7 @@ https://github.com/YasminVerderame/landing-pages/assets/73840387/ebc32038-517c-4
 - JavaScript Interativo: Elementos interativos adicionados com JavaScript para uma experiência mais dinâmica.
 - Fácil Personalização: Modifique o conteúdo no arquivo HTML (index.html) e ajuste o estilo no diretório css conforme suas necessidades.
 
-##Como Usar
+## Como Usar
 - Clone ou faça o download do repositório.
 - Abra o arquivo index.html no seu navegador para visualizar a landing page.
 - Personalize o conteúdo e estilo conforme desejado.
