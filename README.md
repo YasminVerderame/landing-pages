@@ -5,8 +5,6 @@ Este repositório reúne uma variedade de exemplos de landing pages desenvolvida
 Aqui estão algumas prévias de landing pages disponíveis neste repositório:
 - https://sweet-phoenix-40d1a1.netlify.app/
 - https://majestic-arithmetic-ef9397.netlify.app/
-
-## Características Comuns
-- Bootstrap Integrado: Todos os exemplos utilizam o framework Bootstrap para garantir layouts responsivos e componentes consistentes.
-- JavaScript Dinâmico: Implementações de JavaScript são incorporadas para adicionar interatividade e funcionalidades avançadas.
-- Facilmente Customizável: Personalize cada landing page de acordo com suas necessidades, alterando o conteúdo HTML, estilos CSS e scripts JavaScript.
+- https://65ae955cddd90e1b6a7a9902--gleeful-gelato-7d2541.netlify.app/
+- https://65ae98252ac9ba201264c7ce--roaring-cranachan-192d7d.netlify.app/
+- https://65aea2c9ef454d2eeab01801--dynamic-pastelito-6a38b3.netlify.app/
