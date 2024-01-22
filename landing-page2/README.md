@@ -11,7 +11,7 @@ Incluímos uma prévia da landing page para que você possa visualizar facilment
 
 https://github.com/YasminVerderame/landing-pages/assets/73840387/0e82688e-2a91-4476-b381-52ae0c4f11e5
 
-<img src="https://media.discordapp.net/attachments/1102647332350206095/1199003255699673128/127.0.0.1_5500_templatemo_562_space_dynamic_index.html.png?ex=65c0f5cc&is=65ae80cc&hm=d9dfbdab6a4b9acaa1852871d0c3119fd4b863e8ef33609e2ba24c3c7b4f33b7&=&format=webp&quality=lossless&width=135&height=417" alt="">
+<img src="https://cdn.discordapp.com/attachments/1102647332350206095/1199003255699673128/127.0.0.1_5500_templatemo_562_space_dynamic_index.html.png?ex=65c0f5cc&is=65ae80cc&hm=d9dfbdab6a4b9acaa1852871d0c3119fd4b863e8ef33609e2ba24c3c7b4f33b7&" alt="">
 
 
 ## Características Principais
