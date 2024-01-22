@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Landing Page Mutant Whats">
+  <link rel="stylesheet" href="./styles/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="canonical" href="https://whats.mutant.com.br/">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <title>Mutant Whats</title>
+
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="logo">
+            <img src="./assets/images/logo-partner.svg" class="img-fluid" alt="Logo Partner Mutant">
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse nav" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">Já possui uma conta?</li>
+              <li class="nav-item"><a href=""><button onclick="tagManager('mutant-whats:home', 'clique:header', 'login')">Área do cliente</button></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="banner">
+    <div class="container">
+      <div class="row row-mobile">
+        <div class="col">
+          <h1>Revolucione o atendimento da sua empresa e venda mais com Mutant Whats</h1>
+          <p class="text">Aumente a capacidade de atendimento da sua equipe, potencialize suas vendas e gere
+            experiências únicas para seus clientes com a garantia da API Oficial do WhatsApp</p>
+          <p class="text-channels"><b>Todos os canais em uma única plataforma:</b></p>
+          <div class="channels">
+            <img src="./assets/images/channels.svg" alt="">
+          </div>
+        </div>
+
+        <div class="col-md-5 banner-plan">
+          <div class="info">
+            <p> <b>Você otimiza seu negócio com:</b></p>
+            <ul>
+              <li>API Oficial do WhatsApp Business</li>
+              <li>Vários atendentes usando um único número</li>
+              <li>Monitoramento da operação em tempo real</li>
+              <li>Atendimento automatizado com construtor de chatbot</li>
+            </ul>
+          </div>
+          <div class="price">
+            <h4>Plano a partir de</h4>
+            <h5>R$ <span>179</span>/mês</h5>
+            <h6>Comece a usar agora e pague apenas no <span>2º mês</span></h6>
+              <a href=""><button>Teste grátis</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="discover">
+    <div class="container">
+      <h1>Descubra o que o Mutant Whats pode fazer pelo seu negócio</h1>
+      <img class="mobile-only" src="./assets/images/img-webp/slider1-1.webp" alt="Plataforma Mutant Whats">
+
+      <div class="row desktop-only">
+        <div class="col">
+          <div class="item">
+            <h2>Gerencie sua operação em tempo real</h2>
+            <p>No Mutant Whats você tem a visão completa dos seus atendimentos e da fila de espera, acompanha
+              indicadores e gera diversos relatórios</p>
+          </div>
+          <div class="item">
+            <h2>Tenha total liberdade para personalizar a comunicação com seus clientes</h2>
+            <p>Utilize recursos como imagens, áudios, vídeos e emojis para surpreender seus clientes com uma experiência
+              mais humanizada</p>
+          </div>
+        </div>
+        <div class="col img">
+          <img src="./assets/images/img-webp/slider1-1.webp" alt="Plataforma Mutant Whats">
+        </div>
+        <div class="col cards-992">
+          <div class="item">
+            <h2>Tenha vários atendentes em um único WhatsApp</h2>
+            <p>Realize atendimentos simultâneos com vários atendentes usando a mesma conta, sem depender de um celular
+              conectado</p>
+          </div>
+          <div class="item card-992">
+            <h2>Utilize chatbots e ganhe eficiência na sua operação</h2>
+            <p>Construa seu próprio robô de atendimento para oferecer suporte 24h e automatizar parte dos seus
+              atendimentos, evitando filas de espera</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mobile-only slider slider-discover">
+      <div class="row">
+        <div class="col">
+          <div class="slide">
+            <div class="item">
+              <h2>Gerencie sua operação em tempo real</h2>
+              <p>No Mutant Whats você tem a visão completa dos seus atendimentos e da fila de espera, acompanha
+                indicadores e gera diversos relatórios</p>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="item">
+              <h2>Tenha total liberdade para personalizar a comunicação com seus clientes</h2>
+              <p>Utilize recursos como imagens, áudios, vídeos e emojis para surpreender seus clientes com uma
+                experiência mais humanizada</p>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="item">
+              <h2>Tenha vários atendentes em um único WhatsApp</h2>
+              <p>Realize atendimentos simultâneos com vários atendentes usando a mesma conta, sem depender de um celular
+                conectado</p>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="item ">
+              <h2>Utilize chatbots e ganhe eficiência na sua operação</h2>
+              <p>Construa seu próprio robô de atendimento para oferecer suporte 24h e automatizar parte dos seus
+                atendimentos, evitando filas de espera</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span class="btn btn-next" onclick="nextSlide(4)"><img src="./assets/icons/next.svg" alt="Botão próximo"></span>
+      <span class="btn btn-prev" onclick="prevSlide(4)"><img src="./assets/icons/prev.svg" alt="Botão anteriror"></span>
+    </div>
+    <div class="row">
+      <div class="col">
+        <a href="#plans" target="_self"><button
+            onclick="tagManager('mutant-whats:home', 'clique:botao', 'como-funciona:contratar')">quero
+            impulsionar o meu negócio</button></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="how-it-works">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>Como funciona?</h2>
+          <img class="alert" src="./assets/images/Vector.svg" alt="Triângulo de alerta">
+          <h4> Para usar a API oficial, você precisa ter um CNPJ ativo, um site com o <br> domínio da sua empresa e um
+            número não cadastrado no WhatsApp</h4>
+        </div>
+      </div>
+      <div class="items">
+        <div class="item">
+          <div class="icon">
+            <img src="./assets/icons/shopping-cart.svg" alt="Carrinho de compra">
+          </div>
+          <p><b>1.</b> Escolha o melhor plano para seu negócio, cadastre-se e comece a pagar só no 2º mês</p>
+        </div>
+        <div class="item">
+          <div class="icon">
+            <img src="./assets/icons/whatsapp.svg" alt="Logo WhatsApp">
+          </div>
+          <p><b>2.</b> Siga nossas instruções para ativar o número que será usado na API junto ao Facebook </p>
+        </div>
+        <div class="item">
+          <div class="icon notebook">
+            <img src="./assets/icons/notebook.svg" alt="notebook">
+          </div>
+          <p><b>3.</b> Depois, valide os dados da sua empresa no Gerenciador de Negócios do Facebook </p>
+        </div>
+        <div class="item">
+          <div class="icon">
+            <img src="./assets/icons/rocket.svg" alt="Foguete">
+          </div>
+          <p><b>4.</b> Aguarde a ativação da plataforma para começar a utilizar e revolucionar o seu negócio!</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <a href="#plans" target="_self"><button
+            onclick="tagManager('mutant-whats:home', 'clique:botao', 'como-funciona:contratar')">Quero
+              contratar</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="plans" id="plans">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>Escolha um plano e pague <span>apenas no 2º mês</span></h2>
+          <p>Contrate agora uma solução completa de atendimento e vendas capaz de revolucionar o seu negócio</p>
+        </div>
+      </div>
+      <div class="items slider slider-plans">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="slide">
+              <div class="item light">
+                <h3>Light</h3>
+                <h4>R$ <b>179</b> / Mês</h4>
+                <h6>Melhor oferta!</h6>
+                <p>A melhor opção para quem está começando agora, sem pesar no orçamento</p>
+                <ul>
+                  <li>API Oficial do WhatsApp Business</li>
+                  <li>Até 5 atendentes usando o mesmo número</li>
+                  <li>Até 1000 conversas mensais iniciadas pelo seu cliente</li>
+                  <li>Suporte durante o horário comercial</li>
+                  <li>Construtor de chatbot para automatizar o atendimento</li>
+                </ul>
+                <a href=""><button
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'planos:contratar')">Teste grátis</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="slide">
+              <div class="item">
+                <h3>Plus</h3>
+                <h4>R$ <b>499</b> / Mês</h4>
+                <h5>O melhor custo benefício para quem já tem um canal consolidado</h5>
+                <ul>
+                  <li>API Oficial do WhatsApp Business</li>
+                  <li>Até 10 atendentes usando o mesmo número</li>
+                  <li>Até 2000 conversas mensais iniciadas pelo seu cliente</li>
+                  <li>Suporte durante o horário comercial</li>
+                  <li>Construtor de chatbot para automatizar o atendimento</li>
+                </ul>
+
+                <a href=""><button
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'planos:contratar')">Teste grátis</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="slide">
+              <div class="item">
+                <h3>Bold</h3>
+                <h4>R$ <b>1349</b> / Mês</h4>
+                <h5>O plano ideal para empresas com grande volume de atendimento</h5>
+                <ul>
+                  <li>API Oficial do WhatsApp Business</li>
+                  <li>Até 15 atendentes usando o mesmo número</li>
+                  <li>Até 3000 conversas mensais iniciadas pelo seu cliente</li>
+                  <li>Suporte durante o horário comercial</li>
+                  <li>Construtor de chatbot para automatizar o atendimento</li>
+                </ul>
+
+                <a href=""><button style="margin-top: 40px;"
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'planos:contratar')">Teste grátis</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <span class="btn btn-next" onclick="nextSlide(3)"><img src="./assets/icons/next.svg" alt="Botão próximo"></span>
+        <span class="btn btn-prev" onclick="prevSlide(3)"><img src="./assets/icons/prev.svg"
+            alt="Botão anterior"></span>
+      </div>
+    </div>
+  </section>
+  <section class="enterprise">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h2>Plano <br> Enterprise</h2>
+        </div>
+        <div class="col-md-9">
+          <p>Faça um plano personalizado de acordo com as necessidades de sua empresa e escale a comunicação de seu
+            negócio!</p>
+          <a href="https://api.whatsapp.com/send?phone=5511988849275&text=Ol%C3%A1!%20Gostaria%20de%20ajuda!"
+            target="_blank"> <button
+            onclick="tagManager('mutant-whats:home', 'clique:botao', 'enterprise:fale-conosco')">Quero um
+              plano personalizado</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="provedor-oficial">
+    <div class="row img desktop-only">
+      <div class="col">
+        <img src="./assets/images/img-webp/provedor-1.webp" alt="Homem segurando celular">
+      </div>
+    </div>
+    <div class="row desktop-only content">
+      <h1>Como provedor oficial da solução, confira o que oferecemos:</h1>
+      <div class="col-md-4 cards">
+        <div class="card">
+          <img style="width: 48px; height: 66px;" src="./assets/icons/icon1.svg" alt="Cadeado">
+          <p>Tenha um número oficial aumentando sua proteção contra hackers</p>
+        </div>
+        <div class="card">
+          <img style="width: 80px; margin-left: 29%; height: 90px;" src="./assets/images/img-webp/icon3.webp" alt="Robô">
+          <p>Automatização de mensagens por meio dos chatbots</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img style="width: 70px; height: 70px;" src="./assets/icons/icon2.svg" alt="Logo WhatsApp">
+          <p>Segurança no compartilhamento de dados</p>
+        </div>
+        <div class="card">
+          <img style="width: 56px; height: 64px;" src="./assets/images/img-webp/icon4.webp" alt="Relatório">
+          <p>Geração de relatórios em tempo real</p>
+        </div>
+      </div>
+      <a href="#plans"><button
+          onclick="tagManager('mutant-whats:home', 'clique:botao', 'video:escolha-plano')">QUERO conhecer
+          os
+          planos</button></a>
+    </div>
+
+
+    <div class="mobile-only slider slider-provedor-oficial">
+      <div class="row">
+        <h1>Como provedor oficial da solução, confira o que oferecemos:</h1>
+        <div class="col">
+          <div class="slide">
+            <div class="card">
+              <img style="width: 45px; height: 54px;" src="./assets/icons/icon1.svg" alt="Cadeado">
+              <p>Tenha um número oficial aumentando sua proteção contra hackers</p>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="card">
+              <img style="width: 63px; height: 74px; margin-left: 33%;" src="./assets/images/img-webp/icon3.webp" alt="Robô">
+              <p>Automatização de mensagens por meio dos chatbots</p>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="card">
+              <img style="width: 60px; height: 60px;" src="./assets/icons/icon2.svg" alt="logo whatsapp">
+              <p>Segurança no compartilhamento de dados</p>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="card">
+              <img style="width: 56px; height: 80px;" src="./assets/images/img-webp/icon4.webp" alt="Relatório">
+              <p>Geração de relatórios em tempo real</p>
+            </div>
+          </div>
+        </div>
+        <span class="btn btn-next" onclick="nextSlide(5)"><img src="./assets/icons/next.svg" alt="Botão próximo"></span>
+        <span class="btn btn-prev" onclick="prevSlide(5)"><img src="./assets/icons/prev.svg"
+            alt="Botão anterior"></span>
+      </div>
+    </div>
+    <a class="btn-mobile-only" href="#plans"><button
+        onclick="tagManager('mutant-whats:home', 'clique:botao', 'video:escolha-plano')">QUERO conhecer os
+        planos</button></a>
+  </section>
+
+  <section class="video">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>Quer saber mais?</h2>
+          <p>Assista o vídeo e conheça todas as vantagens da API do WhatsApp Business com o Mutant Whats</p>
+          <p class="mobile-only">Entenda as vantagens de ter um Número Oficial com o Mutant Whats</p>
+          <video id="video-mutantwhats2" controls>
+            <source src="./assets/videos/mutant_whats (1080p).mp4" type="video/mp4"> Your browser does not support the video
+            tag.
+          </video>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <a href="#plans"><button
+              onclick="tagManager('mutant-whats:home', 'clique:botao', 'video:escolha-plano')">QUERO
+              CONTRATAR</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="benefits">
+    <div class="container">
+      <div class="table-default">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>
+                <h3>Nossos diferenciais:</h3>
+              </th>
+              <th>
+                <h5>WhatsApp <br> Business</h5>
+              </th>
+              <th>
+                <h5><img src="./assets/images/logo-partner.svg" class="logo-mutant img-fluid" alt="logo mutant"></h5>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Mensagens pré-configuradas (como saudação e ausência)
+              </td>
+              <td><img src="./assets/icons/checkmark2.svg" alt="Check"></td>
+              <td><img src="./assets/icons/checkmark2.svg" alt="Check"></td>
+            </tr>
+            <tr>
+              <td>Informações da empresa no perfil, como o site e horário</td>
+              <td><img src="./assets/icons/checkmark2.svg" alt="Check"></td>
+              <td><img src="./assets/icons/checkmark2.svg" alt="Check"></td>
+            </tr>
+            <tr>
+              <td>Vários atendentes ao mesmo tempo em um único
+                número</td>
+              <td><img src="./assets/icons/close-circle.svg" alt="Não tem"></td>
+              <td><img src="./assets/icons/checkmark2.svg" alt="Check"></td>
+            </tr>
+            <tr>
+              <td>Atendimento via computador e app no celular</td>
+              <td><img src="./assets/icons/close-circle.svg" alt="Não tem"></td>
+              <td><img src="./assets/icons/checkmark2.svg" alt="Check"></td>
+            </tr>
+            <tr>
+              <td>Atendimento 24h com construção de chatbot</td>
+              <td><img src="./assets/icons/close-circle.svg" alt="Não tem"></td>
+              <td><img src="./assets/icons/checkmark2.svg" alt="Check"></td>
+            </tr>
+            <tr>
+              <td>Acompanhamento dos atendimentos em tempo real</td>
+              <td><img src="./assets/icons/close-circle.svg" alt="Não tem"></td>
+              <td><img src="./assets/icons/checkmark2.svg" alt="Check"></td>
+            </tr>
+            <tr>
+              <td>Indicadores de atendimento como tempo médio, filas e muito mais!</td>
+              <td><img src="./assets/icons/close-circle.svg" alt="Não tem"></td>
+              <td><img src="./assets/icons/checkmark2.svg" alt="Check"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  <section class="bot-about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="./assets/images/img-webp/bot-builder.webp" alt="tela bot builder" class="img-fluid bot-builder">
+        </div>
+        <div class="col-md-6">
+          <h2>Crie seu próprio chatbot</h2> <br>
+          <h4>Com o Mutant Bot, você pode criar seu robô de atendimento para atender seus clientes 24h por dia, 7 dias
+            por semana</p> <br>
+            <p>Na nossa plataforma, você pode desenhar o fluxo de atendimento adequado às particularidades que só o seu
+              negócio tem. <br> <br> Construa o passo a passo do diálogo com a nossa interface drag and drop: você
+              arrasta as caixas de diálogo e conecta os caminhos. <br><br>
+
+              Depois, nós conectamos o seu Bot ao WhatsApp em questão de minutos! <br><br>
+
+              O Mutant Bot é integrado ao Mutant Whats, então você também pode acompanhar os indicadores do seu bot,
+              como o número de clientes e muito mais!</p>
+            <a href="#plans"><button
+                onclick="tagManager('mutant-whats:home', 'clique:botao', 'bot:contratar')">quero criar meu
+                chatbot</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>Tire suas dúvidas</h2>
+          <div class="accordion" id="accordionFaq">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading1">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1"
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'fac:ler-mais')">
+                  O que preciso saber antes de contratar o Mutant Whats?
+                </button>
+              </h2>
+              <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1">
+                <div class="accordion-body">
+                  <p>Mutant Whats é uma plataforma de atendimento que possibilita a utilização da API oficial do WhatsApp Business. Sendo assim, para contratá-la é necessário:
+                    <ul>
+                      <li>Estar em acordo com a política de uso da Meta (grupo que gerencia marcas como Facebook e WhatsApp).</li>
+                      <li>Ter um CNPJ;</li>
+                      <li>Ter um site ativo com o domínio da empresa;</li>
+                      <li>Ter uma conta no gerenciador de negócios;</li>
+                      <li>Ter um número que não esteja associado a uma conta no WhatsApp ou que possa ser desvinculado da sua atual conta para utilização na plataforma.</li>
+                    </ul>
+                    </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2"
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'fac:ler-mais')">
+                  Preciso ter um site para contratar o Mutant Whats?
+                </button>
+              </h2>
+              <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2">
+                <div class="accordion-body">
+                  <p>De acordo com a política de uso do WhatsApp Business, para utilizar a API Oficial, a empresa deve ter um site com domínio próprio. Saiba mais em <a href="https://www.facebook.com/business/help/321167023127050">Verify Your Domain in Business Settings | Meta Business Help Center.</a> Caso sua empresa não possua o site, podemos desenvolvê-lo. Entre em contato com o suporte, para mais informações.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3"
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'fac:ler-mais')">
+                  Preciso ter um CNPJ?
+                </button>
+              </h2>
+              <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3">
+                <div class="accordion-body">
+                  <p>Sim. Ter um CNPJ é um dos requisitos do WhatsApp para uso da API Oficial.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4"
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'fac:ler-mais')">
+                  Preciso ter conta no Facebook?
+                </button>
+              </h2>
+              <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4">
+                <div class="accordion-body">
+                  <p>Sim. Para ativar seu Mutant Whats, seu número precisa estar vinculado ao Gerenciador de Negócios da Meta (grupo que gerencia marcas como Facebook e WhatsApp). Fique tranquilo! Se você ainda não tem uma conta no Facebook, você pode criá-la. É rápido, não tem custo e podemos oferecer orientações.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading5">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5"
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'fac:ler-mais')">
+                  O que é Gerenciador de Negócios do Facebook?
+                </button>
+              </h2>
+              <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5">
+                <div class="accordion-body">
+                  <p>O Gerenciador de Negócios é uma ferramenta do Facebook que ajuda a organizar e gerenciar em um único lugar todas as contas de redes sociais da sua empresa, como: WhatsApp, Instagram e Facebook.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading6">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6"
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'fac:ler-mais')">
+                  Posso usar minha conta pessoal do Facebook ou preciso criar uma para empresa?
+                </button>
+              </h2>
+              <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6">
+                <div class="accordion-body">
+                  <p>Você poderá vincular o Mutant Whats a qualquer tipo de conta que seja sua, porém, caso você veicule anúncios, é interessante que o WhatsApp seja da mesma página que fornece os anúncios.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading7">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7"
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'fac:ler-mais')">
+                  Por que preciso verificar minha empresa?
+                </button>
+              </h2>
+              <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7">
+                <div class="accordion-body">
+                  <p>A verificação da empresa é uma etapa indispensável a ser cumprida para sua empresa manter seu número do WhatsApp ativo na API Oficial. Por questões de segurança, o WhatsApp só libera o uso da API para empresas que passaram por essa etapa de verificação, que é feita para garantir que a empresa existe e está dentro das políticas de uso.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading8">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8"
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'fac:ler-mais')">
+                  Como saber se minha empresa já foi verificada?
+                </button>
+              </h2>
+              <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8">
+                <div class="accordion-body">
+                  <p>Essa informação ficará disponível em seu Gerenciador de Negócios do Facebook. Clique em Centro de Segurança e será exibido o status da sua solicitação:  se a empresa já está verificada, se precisa iniciar ou se está pendente de avaliação.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading9">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9"
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'fac:ler-mais')">
+                  Terei o selo de verificação do WhatsApp?
+                </button>
+              </h2>
+              <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9">
+                <div class="accordion-body">
+                  <p>A verificação é feita pelo WhatsApp de acordo com os critérios de avaliação interna. Para mais informações, acesse<a href="https://developers.facebook.com/docs/whatsapp/overview/business-accounts/#official-business-account."> a documentação oficial da Meta</a>. A Mutant Whats não tem interferência no processo de verificação.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading10">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10"
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'fac:ler-mais')">
+                  Posso usar outro número para testar o serviço?
+                </button>
+              </h2>
+              <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10">
+                <div class="accordion-body">
+                  <p>Sim. Você pode iniciar a utilização da plataforma com um número “temporário” enquanto conhece todas as funcionalidades do Mutant Whats. Depois, pode solicitar a alteração para o número principal da empresa.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading11">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11"
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'fac:ler-mais')">
+                  É possível solicitar um número de telefone juntamente com o serviço da plataforma?
+                </button>
+              </h2>
+              <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11">
+                <div class="accordion-body">
+                  <p>No momento, ainda não oferecemos a venda de número de telefones.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading12">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12"
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'fac:ler-mais')">
+                  Posso usar um número Fixo?
+                </button>
+              </h2>
+              <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="heading12">
+                <div class="accordion-body">
+                  <p>Sim. É importante lembrar que você receberá uma chamada para validação do código de ativação. Caso seu número fixo esteja vinculado a um PABX é necessário desvinculá-lo no momento do envio para recebimento do código.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading13">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13"
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'fac:ler-mais')">
+                  Posso usar um número virtual?
+                </button>
+              </h2>
+              <div id="collapse13" class="accordion-collapse collapse" aria-labelledby="heading13">
+                <div class="accordion-body">
+                  <p>Sim, no entanto, números virtuais geralmente estão associados a um PABX virtual, sendo necessário desligá-lo para receber o código de ativação.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading14">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse14" aria-expanded="false" aria-controls="collapse14"
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'fac:ler-mais')">
+                  Posso usar o mesmo número que já tenho no WhatsApp?
+                </button>
+              </h2>
+              <div id="collapse14" class="accordion-collapse collapse" aria-labelledby="heading14">
+                <div class="accordion-body">
+                  <p>Sim. Mas, o número não pode ficar ativo simultaneamente em mais de um local (plataforma e celular, por exemplo). Para que nossa plataforma consiga ativar seu número, é necessário desconectá-lo da conta do seu celular.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading15">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15"
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'fac:ler-mais')">
+                  Eu consigo manter o meu histórico de conversas anteriores?
+                </button>
+              </h2>
+              <div id="collapse15" class="accordion-collapse collapse" aria-labelledby="heading15">
+                <div class="accordion-body">
+                  <p>Ainda não é possível migrar o histórico de conversas da sua conta para o Mutant Whats. Para não perder seu histórico de conversas, você deve fazer um arquivo de backup antes de iniciar a utilização do número na plataforma.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading16">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse16" aria-expanded="false" aria-controls="collapse16"
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'fac:ler-mais')">
+                  Posso importar minha agenda de contatos?
+                </button>
+              </h2>
+              <div id="collapse16" class="accordion-collapse collapse" aria-labelledby="heading16">
+                <div class="accordion-body">
+                  <p>Sim, por meio de uma planilha do excel é possível importar sua agenda.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading17">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse17" aria-expanded="false" aria-controls="collapse17"
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'fac:ler-mais')">
+                  As conversas da minha conta permanecerão ativas na plataforma durante esse processo de ativação?
+                </button>
+              </h2>
+              <div id="collapse17" class="accordion-collapse collapse" aria-labelledby="heading17">
+                <div class="accordion-body">
+                  <p>Até o momento, não. Como a migração do histórico ainda não é possível, você precisará retomar as conversas novamente.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading18">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse18" aria-expanded="false" aria-controls="collapse18"
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'fac:ler-mais')">
+                  Durante o período de ativação, continuo recebendo mensagens?
+                </button>
+              </h2>
+              <div id="collapse18" class="accordion-collapse collapse" aria-labelledby="heading18">
+                <div class="accordion-body">
+                  <p>Atualmente, o prazo para ativação é de 1 dia útil, período em que o número não receberia mensagens. Para evitar ficar sem o seu número durante um período prolongado, recomendamos que entre em contato com nosso suporte para combinar o melhor dia e horário para realizarmos a ativação da plataforma. Nesse caso, o prazo de indisponibilidade passa a ser de apenas 01 hora.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading19">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse19" aria-expanded="false" aria-controls="collapse19"
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'fac:ler-mais')">
+                  Vou continuar acessando meu número pelo WhatsApp?
+                </button>
+              </h2>
+              <div id="collapse19" class="accordion-collapse collapse" aria-labelledby="heading19">
+                <div class="accordion-body">
+                  <p>Como você desvinculará seu número da sua conta no celular, a partir da ativação na plataforma Mutant Whats, você poderá acessá-lo apenas pela plataforma ou pelo app mobile.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading20">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse20" aria-expanded="false" aria-controls="collapse20"
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'fac:ler-mais')">
+                  Posso acessar a plataforma através de um app?
+                </button>
+              </h2>
+              <div id="collapse20" class="accordion-collapse collapse" aria-labelledby="heading20">
+                <div class="accordion-body">
+                  <p>Sim. Nosso aplicativo Mutant Whats está disponível nas lojas de aplicativo para Android e iOS. Você pode acompanhar a sua operação de onde estiver usando o app Mutant Whats, usando seu celular ou tablet e atender seus clientes de qualquer lugar, pelo Whatsapp oficial, Telegram, Instagram ou Messenger, com muita facilidade, mobilidade e com a dinâmica que a sua operação necessita.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading21">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse21" aria-expanded="false" aria-controls="collapse21"
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'fac:ler-mais')">
+                  Se eu não gostar eu posso cancelar e voltar usar meu número no WhatsApp Business?
+                </button>
+              </h2>
+              <div id="collapse21" class="accordion-collapse collapse" aria-labelledby="heading21">
+                <div class="accordion-body">
+                  <p>Sim. Você poderá solicitar o cancelamento a qualquer momento e voltar a utilizar o número no WhatsApp Business. Após o envio da solicitação de cancelamento, caso a sua empresa tenha conectado o número de WhatsApp a nossa plataforma, iniciaremos o processo de desconexão do número. Esse processo tem o prazo máximo de 24h para ocorrer e após a conclusão, você poderá voltar a utilizar seu número novamente no aplicativo do WhatsApp ou em outra plataforma. Fique tranquilo, um e-mail de confirmação de cancelamento será enviado para confirmar a finalização do processo.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading22">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse22" aria-expanded="false" aria-controls="collapse22"
+                  onclick="tagManager('mutant-whats:home', 'clique:botao', 'fac:ler-mais')">
+                  Não estou recebendo o código para confirmar meu número?
+                </button>
+              </h2>
+              <div id="collapse22" class="accordion-collapse collapse" aria-labelledby="heading22">
+                <div class="accordion-body">
+                  <p>Certifique-se de que o número cadastrado está correto. Verifique se a forma de envio do código está correta para o tipo de número registrado. Por exemplo, números de telefone fixo devem receber o código por ligação, enquanto celulares podem receber por ligação ou SMS. Valide também se existe algum PABX ligado ao número e caso tenha, é preciso desligá-lo para receber o código.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <img class="never-settle" src="./assets/images/img-webp/text-footer.webp" alt="logo footer">
+        </div>
+        <div class="col-md-7">
+          <ul>
+            <li><a href="https://api.whatsapp.com/send?phone=551125046890&text=Gostaria%20de%20ajuda!"
+                target="_blank"
+                onclick="tagManager('mutant-whats:home', 'clique:botao', 'help-flutuante:botao-duda');">+55
+                11 2504-6890</a></li>
+            <li>suporte.whats@mutant.com.br</li>
+            <li>R. Hungria, 574 – Cidade Jardim, <br> São Paulo – SP – 01555-903</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <img src="./assets/images/img-webp/logo-white.webp" alt="logo footer" class="logo">
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="whatsapp-link">
+    <a href="https://api.whatsapp.com/send?phone=551125046890&text=Gostaria%20de%20ajuda!" target="_blank"
+      onclick="tagManager('mutant-whats:home', 'clique:botao', 'help-flutuante:botao-duda');"><img
+        src="./assets/images/whatsapp-link.svg" alt="WhatsApp"></a>
+  </div>
+
+  <script async src="./js/bootstrap/bootstrap.bundle.min.js"></script>
+  <script async src="./js/main.js"></script>
+</body>
+
+</html>
