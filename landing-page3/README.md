@@ -1,4 +1,4 @@
-# Landing Page com HTML, CSS, Bootstrap e JavaScript
+# Landing Page - Mutant Whats v1
 
 Este repositório contém uma landing page responsiva e atraente, desenvolvida utilizando HTML, CSS, Bootstrap e JavaScript.
 Essa landing page foi desenvolvida para o Mutant Whats, produto da empresa Mutant.
@@ -15,4 +15,4 @@ Incluímos uma prévia da landing page para que você possa visualizar facilment
 ## Características Principais
 - Bootstrap Integrado: Utilizamos o framework Bootstrap para um design consistente e responsivo.
 - JavaScript Interativo: Elementos interativos adicionados com JavaScript para uma experiência mais dinâmica.
-- Fácil Personalização: Modifique o conteúdo no arquivo HTML (index.html) e ajuste o estilo no diretório css conforme suas necessidades.
+
