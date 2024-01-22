@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Mutant Whats - Automação para WhatsApp</title>
+</head>
+
+<body>
+    <div id="app" class="d-flex flex-column position-relative">
+
+        <header>
+            <div class="container py-2">
+                <div class="logo mx-auto mx-xl-0">
+                    <img src="./assets/images/logo-mutant.svg" class="img-fluid" alt="Logo Mutant Whats">
+                    </dic>
+                </div>
+        </header>
+
+        <div class="main flex-grow-1">
+
+            <section class="hero">
+                <div class="container d-flex align-items-center px-4 px-xl-2 py-5 py-xl-0">
+                    <div class="desc mx-auto mx-xl-0">
+
+                        <h1 class="title text-center text-xl-start">Atenda melhor e venda mais com uma plataforma
+                            simples e fácil de usar</h1>
+
+                        <div class="pt-3 text-center text-xl-start">
+                            <p class="mb-3 fw-semibold">Planos que cabem no seu orçamento<br />a partir de <span>R$
+                                    179,00</span>.</p>
+                            <p class="mb-3">Teste grátis por <span>30 dias</span></p>
+                        </div>
+
+                        <div class="pt-3 d-flex flex-column flex-xxl-row align-items-center align-items-xl-start">
+                            <button type="button"
+                                onclick="tagManager('lp:12-2023', 'clique:botao', 'banner-principal:conheca-nossos-planos');handleRedirect('section-plans')"
+                                class="btn btn-primary mb-2 mb-xxl-0 redirect-plans">Conheça nossos planos</button>
+                            <button type="button"
+                                onclick="tagManager('lp:12-2023', 'clique:botao', 'banner-principal:fale-com-especialista');handleRedirect('section-contact')"
+                                class="btn btn-outline-light  ms-0 ms-xxl-2 redirect-contact">Fale com nossos
+                                especialistas</button>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="message d-flex justify-content-center align-items-center text-white py-3 px-4 text-center">
+                Ativação da plataforma e treinamento sem custo adicional
+            </section>
+
+            <section class="discover">
+                <div class="container px-4 px-xl-2 py-4 py-xl-5">
+
+                    <div id="carousel-discover" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel-discover" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousel-discover" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carousel-discover" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active" data-bs-interval="4000">
+                                <div class="section-title d-flex justify-content-center align-items-center">
+                                    <h2 class="fs-3 fw-bold mb-0">Centralize seus canais de atendimento e crie conversas
+                                        personalizadas com seus clientes</h2>
+                                </div>
+                                <div class="content pt-3">
+                                    <img src="./assets/images/discover-1.png" />
+                                </div>
+                            </div>
+
+                            <div class="carousel-item" data-bs-interval="4000">
+                                <div class="section-title d-flex justify-content-center align-items-center">
+                                    <h2 class="fs-3 fw-bold mb-0">Monitore em tempo real tudo o que acontece com seu
+                                        time de atendimento</h2>
+                                </div>
+                                <div class="content pt-3">
+                                    <img src="./assets/images/discover-2.png" />
+                                </div>
+                            </div>
+
+                            <div class="carousel-item" data-bs-interval="4000">
+                                <div class="section-title d-flex justify-content-center align-items-center">
+                                    <h2 class="fs-3 fw-bold mb-0">Dispare mensagens para os seus contatos e venda mais
+                                    </h2>
+                                </div>
+                                <div class="content pt-3">
+                                    <img src="./assets/images/discover-3.png" />
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="pt-5 mt-4 d-flex flex-column flex-md-row justify-content-center align-items-center">
+                        <a href="/dados-pessoais" class="text-decoration-none">
+                            <button
+                                onclick="tagManager('lp:12-2023', 'clique:botao', 'centralize-seus-canais:contratar');"
+                                class="btn btn-primary mb-2 mb-md-0">Teste grátis por 30 dias</button>
+                        </a>
+                        <button type="button"
+                            onclick="tagManager('lp:12-2023', 'clique:botao', 'centralize-seus-canais:fale-com-especialista');handleRedirect('section-contact')"
+                            class="btn btn-outline-dark  ms-0 ms-md-2 redirect-contact">Fale com nossos
+                            especialistas</button>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="how-it-works">
+                <div class="container px-4 px-xl-2 py-5">
+
+                    <div class="section-title">
+                        <h2 class="fs-3 fw-bold mb-0">A Plataforma de Atendimento perfeita para o seu negócio</h2>
+                        <div class="pt-4">
+                            <p>Mutant Whats é a plataforma ideal para quem quer oferecer um atendimento mais
+                                profissional para seus clientes e vender mais, <b>sem pesar no orçamento</b></p>
+                        </div>
+                    </div>
+
+                    <div class="itens pt-4 pb-5">
+                        <div class="swiper-howitworks py-2">
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+                                    <div class="howitworks-itens align-items-stretch item1">
+                                        <div class="img"><img src="./assets/images/howitworks-1.png" /></div>
+                                        <div class="desc flex-grow-1">
+                                            <h3 class="fw-semibold">Vários atendentes em um único número de Whatsapp
+                                            </h3>
+                                            <p>Atenda mais rápido e com vários atendentes num mesmo número de Whatsapp
+                                                realizando conversas simultâneas.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="howitworks-itens align-items-stretch item2">
+                                        <div class="img"><img src="./assets/images/howitworks-2.png" /></div>
+                                        <div class="desc flex-grow-1">
+                                            <h3 class="fw-semibold">Gerencie sua operação em tempo real</h3>
+                                            <p>Acompanhe tudo que acontece no seu atendimento em tempo real de onde
+                                                estiver, seja através do seu computador ou Aplicativo para Android e
+                                                IOS.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="howitworks-itens align-items-stretch item3">
+                                        <div class="img"><img src="./assets/images/howitworks-3.png" /></div>
+                                        <div class="desc flex-grow-1">
+                                            <h3 class="fw-semibold">Evite o risco de banimento do seu Whatsapp</h3>
+                                            <p>Somos parceiros oficiais da Meta e garantimos que você esteja de acordo
+                                                com todas as regras do Whatsapp.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="howitworks-itens align-items-stretch item4">
+                                        <div class="img"><img src="./assets/images/howitworks-4.png" /></div>
+                                        <div class="desc flex-grow-1">
+                                            <h3 class="fw-semibold">Um chatbot pra chamar de seu</h3>
+                                            <p>Com a plataforma Mutant Whats, criar seu próprio chatbot é muito simples!
+                                                Você automatiza seu atendimento e fica disponível para seus clientes 24h
+                                                por dia, 7 dias na semana</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="swiper-pagination pagination-howitworks"></div>
+                        <div class="swiper-button-prev button-prev-howitworks">Anterior</div>
+                        <div class="swiper-button-next button-next-howitworks">Próximo</div>
+                    </div>
+
+                    <div class="pt-2 mt-2 d-flex flex-column flex-md-row justify-content-center align-items-center">
+                        <button type="button"
+                            onclick="tagManager('lp:12-2023', 'clique:botao', 'plataforma-de-atendimento:conheca-nossos-planos');handleRedirect('section-plans')"
+                            class="btn btn-primary mb-2 mb-md-0 redirect-plans">Conheça nossos planos</button>
+                        <button type="button"
+                            onclick="tagManager('lp:12-2023', 'clique:botao', 'plataforma-de-atendimento:fale-com-especialista');handleRedirect('section-contact')"
+                            class="btn btn-outline-dark  ms-0 ms-md-2 redirect-contact">Fale com nossos
+                            especialistas</button>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section class="discover-3">
+                <div class="container px-4 px-xl-2 py-5">
+
+                    <div class="section-title">
+                        <h2 class="fs-3 fw-bold mb-0">Uma solução de atendimento prática para suas equipes e uma
+                            experiência incrível para seus clientes</h2>
+                        <div class="pt-4">
+                            <p>Conecte-se com seus clientes de forma inteligente e simplifique seu dia a dia.</p>
+                        </div>
+                    </div>
+
+                    <div class="itens pt-4 d-none d-md-block">
+
+                        <div class="item flex-row my-4 shadow-sm">
+                            <div class="img d-flex "><img src="./assets/images/discover_3-1.png" /></div>
+                            <div class="desc d-flex flex-column justify-content-center">
+                                <h3>Uma ferramenta poderosa de vendas</h3>
+                                <p>Conecte-se direto com seus clientes e transforme seu whatsapp numa ferramenta de
+                                    vendas, para captar clientes, divulgar seus produtos, fazer campanhas e realizar
+                                    muitas vendas.</p>
+                            </div>
+                        </div>
+
+                        <div class="item flex-row my-4 shadow-sm">
+                            <div class="img d-flex "><img src="./assets/images/discover_3-2.png" /></div>
+                            <div class="desc d-flex flex-column justify-content-center">
+                                <h3>Uma experiência incrível para seus clientes</h3>
+                                <p>Com o Mutant Whats, você <b>centraliza as interações</b> de seus clientes em todos os
+                                    canais de mensagem numa <b>única plataforma</b> e <b>automatiza conversas</b>
+                                    oferecendo um atendimento rápido e eficiente.</p>
+                            </div>
+                        </div>
+
+                        <div class="item flex-row my-4 shadow-sm">
+                            <div class="img d-flex "><img src="./assets/images/discover_3-3.png" /></div>
+                            <div class="desc d-flex flex-column justify-content-center">
+                                <h3>Uma plataforma de atendimento perfeita para sua equipe</h3>
+                                <p>O Mutant Whats tem uma interface super amigável, que vai simplificar o dia a dia dos
+                                    seus funcionários, aumentar a eficiência e ajudá-los a realizar um atendimento
+                                    simples e personalizado.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="itens pt-2 pt-md-4 pb-4 pb-md-0 d-block d-md-none">
+                        <div class="swiper-discover-3 pt-2 pb-4">
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+                                    <div class="item flex-column shadow-sm">
+                                        <div class="img d-flex "><img src="./assets/images/discover_3-1.png" /></div>
+                                        <div class="desc py-3 d-flex flex-column justify-content-center">
+                                            <h3>Uma ferramenta poderosa de vendas</h3>
+                                            <p>Conecte-se direto com seus clientes e transforme seu whatsapp numa
+                                                ferramenta de vendas, para captar clientes, divulgar seus produtos,
+                                                fazer campanhas e realizar muitas vendas.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="item flex-column shadow-sm">
+                                        <div class="img d-flex "><img src="./assets/images/discover_3-2.png" /></div>
+                                        <div class="desc py-3 d-flex flex-column justify-content-center">
+                                            <h3>Uma experiência incrível para seus clientes</h3>
+                                            <p>Com o Mutant Whats, você <b>centraliza as interações</b> de seus clientes
+                                                em todos os canais de mensagem numa <b>única plataforma</b> e
+                                                <b>automatiza conversas</b> oferecendo um atendimento rápido e
+                                                eficiente.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="item flex-column shadow-sm">
+                                        <div class="img d-flex "><img src="./assets/images/discover_3-3.png" /></div>
+                                        <div class="desc py-3 d-flex flex-column justify-content-center">
+                                            <h3>Uma plataforma de atendimento perfeita para sua equipe</h3>
+                                            <p>O Mutant Whats tem uma interface super amigável, que vai simplificar o
+                                                dia a dia dos seus funcionários, aumentar a eficiência e ajudá-los a
+                                                realizar um atendimento simples e personalizado.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="swiper-pagination pagination-discover-3"></div>
+                    </div>
+
+                    <div class="pt-2 mt-2 d-flex flex-column flex-md-row justify-content-center align-items-center">
+                        <a href="/dados-pessoais" class="text-decoration-none">
+                            <button
+                                onclick="tagManager('lp:12-2023', 'clique:botao', 'solucao-de-atendimento:contratar');"
+                                class="btn btn-primary mb-2 mb-md-0">Teste grátis por 30 dias</button>
+                        </a>
+                        <button type="button"
+                            onclick="tagManager('lp:12-2023', 'clique:botao', 'solucao-de-atendimento:fale-com-especialista');handleRedirect('section-contact')"
+                            class="btn btn-outline-dark  ms-0 ms-md-2 redirect-contact">Fale com nossos
+                            especialistas</button>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section class="plans" id="section-plans">
+                <div class="container px-2 py-5">
+
+                    <div class="section-title">
+                        <h2 class="fs-3 fw-bold mb-0">Escolha o plano ideal para sua empresa</h2>
+                        <div class="pt-4">
+                            <p>Contrate agora, experimente a plataforma e <span class="fw-semibold">ganhe 30 dias
+                                    grátis</span></p>
+                        </div>
+                    </div>
+
+                    <div class="row itens pt-4">
+
+                        <div class="best-offer col-12 col-xl-4 item px-2 my-3 my-xl-0">
+                            <div class="d-flex flex-column shadow-sm">
+
+                                <div class="item-main flex-grow-1">
+                                    <div class="title pt-1">
+                                        <h3 class="fs-1 pb-2 pb-xl-0">LIGHT</h3>
+                                        <p class="fw-semibold fs-6">Melhor Custo-Benefício do Mercado</p>
+                                        <div class="selo"><img src="./assets/icons/selo.svg" /></div>
+                                    </div>
+                                    <div class="desc montserrat">
+                                        <ul>
+                                            <li>Até 5 atendentes usando o mesmo número</li>
+                                            <li>Até 1000 conversas mensais iniciadas pela empresa ou pelo cliente</li>
+                                            <li>Construtor de chatbot para automatizar o atendimento</li>
+                                            <li>Plataforma de atendimento exclusiva Mutant Whats.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="item-footer">
+                                    <div class="d-flex justify-content-center align-items-center flex-column py-3">
+                                        <div class="fs-6 montserrat fw-light text-center">
+                                            Por apenas:
+                                        </div>
+                                        <div class="d-flex fw-semibold justify-content-center align-items-end py-2">
+                                            <div class="position-relative me-1">R$</div>
+                                            <div class="preco">179</div>
+                                            <div>/mês</div>
+                                        </div>
+                                        <div class="fs-6 montserrat text-center fw-500">
+                                            Primeiro mês grátis
+                                        </div>
+                                    </div>
+                                    <div class="pt-2">
+                                        <a href="/dados-pessoais" class="text-decoration-none">
+                                            <button
+                                                onclick="tagManager('lp:12-2023', 'clique:botao', 'plano-light:contratar')"
+                                                class="btn btn-primary w-100">Contratar plano</button>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-xl-4 item px-2 my-3 my-xl-0">
+                            <div class="d-flex flex-column shadow-sm">
+
+                                <div class="item-main flex-grow-1">
+                                    <div class="title pt-1">
+                                        <h3 class="fs-1 pb-2 pb-xl-0 color-primary">PLUS</h3>
+                                        <p class="fw-semibold fs-6">Indicado para empresas com o canal WhatsApp já
+                                            consolidado</p>
+                                        <div class="selo"><img src="./assets/icons/selo-dark.svg" /></div>
+                                    </div>
+                                    <div class="desc montserrat">
+                                        <ul>
+                                            <li>Até 15 atendentes usando o mesmo número</li>
+                                            <li>Até 3000 conversas mensais iniciadas pela empresa ou pelo cliente</li>
+                                            <li>Construtor de chatbot para automatizar o atendimento</li>
+                                            <li>Plataforma de atendimento exclusiva Mutant Whats.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="item-footer">
+                                    <div class="d-flex justify-content-center align-items-center flex-column py-3">
+                                        <div class="fs-6 montserrat fw-light text-center">
+                                            De: <del>R$499</del>
+                                        </div>
+                                        <div class="d-flex fw-semibold justify-content-center align-items-end py-2">
+                                            <div class="position-relative me-1">
+                                                <span class="por montserrat">Por:</span>
+                                                R$
+                                            </div>
+                                            <div class="preco">425</div>
+                                            <div>/mês</div>
+                                        </div>
+                                        <div class="fs-6 montserrat text-center fw-500 color-primary">
+                                            Primeiro mês grátis
+                                        </div>
+                                    </div>
+                                    <div class="pt-2">
+                                        <a href="/dados-pessoais/plus" class="text-decoration-none">
+                                            <button
+                                                onclick="tagManager('lp:12-2023', 'clique:botao', 'plano-plus:contratar')"
+                                                class="btn btn-primary w-100">Contratar plano</button>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-xl-4 item px-2 my-3 my-xl-0">
+                            <div class="d-flex flex-column shadow-sm">
+
+                                <div class="item-main flex-grow-1">
+                                    <div class="title pt-1">
+                                        <h3 class="fs-1 pb-2 pb-xl-0 color-primary">BOLD</h3>
+                                        <p class="fw-semibold fs-6">Recomendado para empresas com alto volume de
+                                            conversas</p>
+                                        <div class="selo"><img src="./assets/icons/selo-dark.svg" /></div>
+                                    </div>
+                                    <div class="desc montserrat">
+                                        <ul>
+                                            <li>Até 30 atendentes usando o mesmo número</li>
+                                            <li>Até 4000 conversas mensais iniciadas pela empresa ou pelo cliente</li>
+                                            <li>Construtor de chatbot para automatizar o atendimento</li>
+                                            <li>Plataforma de atendimento exclusiva Mutant Whats.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="item-footer">
+                                    <div class="d-flex justify-content-center align-items-center flex-column py-3">
+                                        <div class="fs-6 montserrat fw-light text-center">
+                                            De: <del>R$1349</del>
+                                        </div>
+                                        <div class="d-flex fw-semibold justify-content-center align-items-end py-2">
+                                            <div class="position-relative me-1">
+                                                <span class="por montserrat">Por:</span>
+                                                R$
+                                            </div>
+                                            <div class="preco">1150</div>
+                                            <div>/mês</div>
+                                        </div>
+                                        <div class="fs-6 montserrat text-center fw-500 color-primary">Primeiro mês
+                                            grátis</div>
+                                    </div>
+                                    <div class="pt-2">
+                                        <a href="/dados-pessoais/bold" class="text-decoration-none">
+                                            <button
+                                                onclick="tagManager('lp:12-2023', 'clique:botao', 'plano-bold:contratar')"
+                                                class="btn btn-primary w-100">Contratar plano</button>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="plan-message d-flex justify-content-center align-items-center fs-5 text-center pt-5">
+                        E mais! Você não paga nada pela ativação da plataforma, nem pelo treinamento para seu time
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="watch">
+                <div class="container px-4 px-xl-2 py-5">
+
+                    <div class="section-title">
+                        <h2 class="fs-3 fw-bold mb-0">Completa, ágil e fácil de usar. Experimente o Mutant Whats e tenha
+                            resultados imediatos!</h2>
+                        <div class="pt-4">
+                            <p>Veja como é rápido e prático implementar o Mutant Whats na rotina da sua empresa.</p>
+                        </div>
+                    </div>
+
+                    <div class="row pt-4">
+                        <div class="col-12 col-xl-6 py-2">
+                            <div class="bg-white p-2 rounded">
+                                <video class="d-block w-100" id="video-mutantwhats2" controls
+                                    poster="./assets//images/poster.png">
+                                    <source src="./assets/videos/mutant_whats (1080p).mp4" type="video/mp4"> Seu browser
+                                    não suporta a tag video.
+                                </video>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xl-6">
+                            <ul class="d-block m-0 p-0 d-flex flex-column justify-content-between h-100">
+                                <li class="d-block text-center bg-white rounded my-2 py-3 px-5 color-default">
+                                    Vários dispositivos conectados ao seu<br />número de whatsapp
+                                </li>
+                                <li class="d-block text-center bg-white rounded my-2 py-3 px-5 color-default">
+                                    Solução segura e estável com a API<br />Oficial do Whatsapp
+                                </li>
+                                <li class="d-block text-center bg-white rounded my-2 py-3 px-5 color-default">
+                                    Interface amigável e fácil de<br />implementar
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div
+                        class="pt-2 pt-xl-5 mt-2 d-flex flex-column flex-md-row justify-content-center align-items-center">
+                        <a href="/dados-pessoais" class="text-decoration-none">
+                            <button type="button"
+                                onclick="tagManager('lp:12-2023', 'clique:botao', 'completa-agil-facil:contratar');"
+                                class="btn btn-primary mb-2 mb-md-0">Teste grátis por 30 dias</button>
+                        </a>
+                        <button type="button"
+                            onclick="tagManager('lp:12-2023', 'clique:botao', 'completa-agil-facil:fale-com-especialista');handleRedirect('section-contact')"
+                            class="btn btn-outline-light ms-0 ms-md-2 redirect-contact">Fale com nossos
+                            especialistas</button>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="testimonials">
+                <div class="container px-4 px-xl-2 py-4 py-xl-5">
+
+                    <div class="section-title">
+                        <h2 class="fs-3 fw-bold mb-0">Histórias de Sucesso: Veja como o Mutant Whats fez a diferença
+                            para nossos clientes</h2>
+                    </div>
+
+                    <div class="itens pt-3 pt-md-5 pb-5">
+                        <div class="swiper-testimonials py-2">
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+                                    <div class="item d-flex flex-column shadow-sm">
+                                        <div class="flex-grow-1">
+                                            <div class="image mb-3">
+                                                <img src="./assets/images/testmonial-1.png" />
+                                            </div>
+                                            <div class="fst-italic text-center fs-6">“O Mutant Whats foi de extrema
+                                                importância para organizar a comunicação e trazer resultado na nossa
+                                                imobiliária”</div>
+                                        </div>
+                                        <div>
+                                            <hr />
+                                            <div class="color-primary text-center">Marília</div>
+                                            <div class="star"><img src="./assets/images/estrelas.png"
+                                                    class="d-inline-block" /></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="item d-flex flex-column shadow-sm">
+                                        <div class="flex-grow-1">
+                                            <div class="image mb-3">
+                                                <img src="./assets/images/testmonial-2.png" />
+                                            </div>
+                                            <div class="fst-italic text-center fs-6">“Somos uma clínica de ortopedia
+                                                ...um terço dos nossas atendimentos já são finalizados de forma
+                                                automática.”</div>
+                                        </div>
+                                        <div>
+                                            <hr />
+                                            <div class="color-primary text-center">Ryan</div>
+                                            <div class="star"><img src="./assets/images/estrelas.png"
+                                                    class="d-inline-block" /></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="item d-flex flex-column shadow-sm">
+                                        <div class="flex-grow-1">
+                                            <div class="image mb-3">
+                                                <img src="./assets/images/testmonial-3.png" />
+                                            </div>
+                                            <div class="fst-italic text-center fs-6">“Total controle sobre todas as
+                                                Conversas que passam nas 5 lojas, com os vendedores.”</div>
+                                        </div>
+                                        <div>
+                                            <hr />
+                                            <div class="color-primary text-center">Douglas</div>
+                                            <div class="star"><img src="./assets/images/estrelas.png"
+                                                    class="d-inline-block" /></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="item d-flex flex-column shadow-sm">
+                                        <div class="flex-grow-1">
+                                            <div class="image mb-3">
+                                                <img src="./assets/images/testmonial-4.png" />
+                                            </div>
+                                            <div class="fst-italic text-center fs-6">“Somos um instituto que oferece
+                                                atendimentos como filantropia. Simples e fácil de usar.”</div>
+                                        </div>
+                                        <div>
+                                            <hr />
+                                            <div class="color-primary text-center">Joana</div>
+                                            <div class="star"><img src="./assets/images/estrelas.png"
+                                                    class="d-inline-block" /></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="swiper-pagination pagination-testmonials"></div>
+                        <div class="swiper-button-prev button-prev-testmonials">Anterior</div>
+                        <div class="swiper-button-next button-next-testmonials">Próximo</div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="contact py-4" id="section-contact">
+                <div class="container py-3 py-xl-5 px-2">
+
+                    <div class="contact-form">
+                        <div class="title text-center px-4 py-4 py-lg-5">
+                            <h2 class="color-primary">
+                                Agende uma conversa com um de nossos consultores.
+                            </h2>
+                        </div>
+                        <div class="bg-white pt-4 pb-4 px-4 pb-lg-5 px-lg-5">
+                            <h3 class="text-center fs-6 pb-2">Fale com nossos especialistas e descubra como o Mutant
+                                Whats pode ajudar o <b>seu negócio a vender mais!</b></h3>
+
+                            <div>
+                                <form
+                                    action='https://forms.zohopublic.com/mutantwhats/form/Agendeumaconversacomumdenossosconsultores/formperma/FcGOtlEXiukwknrqu8pZ7PP-cQPXPpbWdJ9jxqoZm6M/htmlRecords/submit'
+                                    name='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'
+                                    id='form' target="_blank">
+                                    <!-- onSubmit='javascript:document.charset="UTF-8"; return zf_ValidateAndSubmit();' -->
+                                    <input type="hidden" name="zf_referrer_name" value="">
+                                    <!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
+                                    <input type="hidden" name="zf_redirect_url" value="">
+                                    <!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
+                                    <input type="hidden" name="zc_gad" value="">
+                                    <!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
+
+                                    <div class="pb-3">
+                                        <label class="d-block pb-1">Nome *</label>
+                                        <input type="text" id="name-field" name="SingleLine" checktype="c1" value=""
+                                            maxlength="255" fieldType=1
+                                            placeholder="Nome&#x20;completo&#x20;do&#x20;titular" />
+                                    </div>
+
+                                    <div class="pb-3">
+                                        <label class="d-block pb-1">Email *</label>
+                                        <input fieldType=9 id="email-field" type="email" maxlength="255" name="Email"
+                                            checktype="c5" value="" placeholder="E-mail&#x20;de&#x20;contato" />
+                                    </div>
+
+                                    <div class="pb-3">
+                                        <label class="d-block pb-1">Celular *</label>
+                                        <input type="tel" compname="PhoneNumber" name="PhoneNumber_countrycode"
+                                            maxlength="20" checktype="c7" value="" phoneFormat="1"
+                                            isCountryCodeEnabled=false fieldType="11"
+                                            id="international_PhoneNumber_countrycode" valType="number"
+                                            phoneFormatType="1" placeholder="&#x28;99&#x29;&#x20;9&#x20;9999-9999" />
+                                    </div>
+
+                                    <div class="pb-3">
+                                        <label class="d-block pb-1">Nome da empresa *</label>
+                                        <input type="text" id="company-name-field" name="SingleLine1" checktype="c1"
+                                            value="" maxlength="255" fieldType=1
+                                            placeholder="Nome&#x20;da&#x20;empresa&#x20;para&#x20;consulta&#x20;com&#x20;o&#x20;especialista" />
+                                    </div>
+
+                                    <div class="pb-3">
+                                        <label class="d-flex align-items-center">
+                                            <div class="pe-3">
+                                                <input class="zf-checkBoxType" type="checkbox" id="Checkbox_1"
+                                                    name="Checkbox" checktype="c1"
+                                                    value="Concordo&#x20;em&#x20;receber&#x20;liga&ccedil;&otilde;es&#x20;e&#x2f;ou&#x20;mensagens&#x20;do&#x20;Mutant&#x20;Whats&#x20;por&#x20;e-mail&#x20;e&#x20;whatsapp." />
+                                            </div>
+                                            <div class="fs-6 flex-grow-1">Concordo em receber ligações e/ou mensagens do
+                                                Mutant Whats por e-mail e whatsapp. *</div>
+                                        </label>
+                                    </div>
+
+                                    <div class="pt-2 mt-2 d-flex justify-content-center align-items-center">
+                                        <button type="submit"
+                                            onclick="tagManager('lp:12-2023', 'clique:botao', 'agende-uma-conversa:falar-com-um-especialista');"
+                                            class="btn btn-primary">Falar com um especialista</button>
+                                    </div>
+
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="privacy">
+                <div class="container py-3 py-sm-4 px-4">
+                    <p>Todas as informações sobre como seus dados são tratados podem ser encontrados no nosso <a
+                            href="./aviso-de-privacidade" target="_blank">Aviso de Privacidade</a>. Este documento
+                        detalha os tipos de dados que coletamos, como são utilizados, armazenados e protegidos.</p>
+                    <p>Além disso, para exercer seus direitos como titular de dados, disponibilizamos nosso <a
+                            href="https://clashbr.com/portal-do-titular/" target="_blank">Portal do Titular</a>. Nesse
+                        canal você pode realizar solicitações relacionadas aos seus dados pessoais, como acesso,
+                        retificação, exclusão, entre outros.</p>
+                </div>
+            </section>
+
+        </div>
+
+        <footer class="d-flex justify-content-center align-items-center">
+            <div class="container d-flex justify-content-between align-items-center px-4 py-4 py-xl-2">
+
+                <div
+                    class="d-flex flex-column flex-lg-row justify-content-center align-items-start align-items-xl-center">
+
+                    <div class="slogan pb-3 pb-xl-0"><img src="./assets/images/never-settle.png" alt="Never Settle" />
+                    </div>
+                    <div class="desc text-white fw-semibold ps-0 ps-lg-5">
+                        <a href="https://api.whatsapp.com/send?phone=551125046890&amp;text=Gostaria%20de%20ajuda!"
+                            class="text-white" target="_blank"
+                            onclick="tagManager('lp:12-2023', 'clique:botao', 'footer:whatsapp');">+55 11
+                            2504-6890</a><br />
+                        suporte.whats@mutant.com.br<br />
+                        R. Hungria, 574 - Cidade Jardim,<br />
+                        São Paulo - SP - 01555-903
+                    </div>
+                </div>
+                <div class="d-none d-lg-block">
+                    <div class="logo-footer">
+                        <img src="./assets/images/logo-mutant.png" alt="Logo Mutant" />
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+
+
+        <div class="whatsapp-link">
+            <a href="https://api.whatsapp.com/send?phone=551125046890&text=Gostaria%20de%20ajuda!" target="_blank"
+                onclick="tagManager('lp:12-2023', 'clique:botao', 'help-flutuante:whatsapp');"><img
+                    src="./assets/images/whatsapp-link.svg" alt="WhatsApp"></a>
+        </div>
+    </div>
+
+    <script async src="./js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./js/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/imask"></script>
+    <script async src="./js/main.js"></script>
+
+</body>
+
+</html>
